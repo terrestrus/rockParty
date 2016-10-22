@@ -13,6 +13,8 @@
 		21DC05B71DBB6478009A7FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21DC05B61DBB6478009A7FC1 /* Assets.xcassets */; };
 		21DC05BA1DBB6478009A7FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21DC05B81DBB6478009A7FC1 /* LaunchScreen.storyboard */; };
 		21DC05C21DBB6B39009A7FC1 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC05C11DBB6B39009A7FC1 /* VideoVC.swift */; };
+		21DC05C41DBB9937009A7FC1 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC05C31DBB9937009A7FC1 /* PartyCell.swift */; };
+		21DC05C61DBB9A4E009A7FC1 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DC05C51DBB9A4E009A7FC1 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		21DC05B91DBB6478009A7FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21DC05BB1DBB6478009A7FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DC05C11DBB6B39009A7FC1 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		21DC05C31DBB9937009A7FC1 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		21DC05C51DBB9A4E009A7FC1 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				21DC05B81DBB6478009A7FC1 /* LaunchScreen.storyboard */,
 				21DC05BB1DBB6478009A7FC1 /* Info.plist */,
 				21DC05C11DBB6B39009A7FC1 /* VideoVC.swift */,
+				21DC05C31DBB9937009A7FC1 /* PartyCell.swift */,
+				21DC05C51DBB9A4E009A7FC1 /* PartyRock.swift */,
 			);
 			path = rockParty;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				21DC05C21DBB6B39009A7FC1 /* VideoVC.swift in Sources */,
 				21DC05B21DBB6478009A7FC1 /* ViewController.swift in Sources */,
+				21DC05C61DBB9A4E009A7FC1 /* PartyRock.swift in Sources */,
+				21DC05C41DBB9937009A7FC1 /* PartyCell.swift in Sources */,
 				21DC05B01DBB6478009A7FC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
