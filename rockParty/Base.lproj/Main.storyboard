@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -150,14 +151,29 @@
                                     <constraint firstAttribute="height" constant="188" id="IhA-dr-m5I"/>
                                 </constraints>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIU-yw-TWS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="8AO-Wn-2Un"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="kVZ-m6-dhO" firstAttribute="top" secondItem="aST-a0-Iuu" secondAttribute="bottom" id="Ee5-aD-hd2"/>
                             <constraint firstItem="kVZ-m6-dhO" firstAttribute="leading" secondItem="gN2-gm-2E6" secondAttribute="leading" id="Ke0-jW-Kcj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TIU-yw-TWS" secondAttribute="trailing" constant="5" id="LHf-Bf-Y7d"/>
                             <constraint firstAttribute="trailing" secondItem="kVZ-m6-dhO" secondAttribute="trailing" id="VR3-RR-apz"/>
+                            <constraint firstItem="TIU-yw-TWS" firstAttribute="top" secondItem="kVZ-m6-dhO" secondAttribute="bottom" constant="50" id="cOd-yg-LX7"/>
+                            <constraint firstItem="TIU-yw-TWS" firstAttribute="leading" secondItem="gN2-gm-2E6" secondAttribute="leadingMargin" constant="5" id="qNj-y7-5eU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleLbl" destination="TIU-yw-TWS" id="SBN-4u-o5o"/>
+                        <outlet property="webView" destination="kVZ-m6-dhO" id="Dju-4Z-o8O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23O-sy-F6d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
